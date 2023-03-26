@@ -1,8 +1,14 @@
+#topsection {background-color: #A7C5A8;
+min-height: 25rem;
+}
+
+img {height: 500px;}
+
 #navigation {
 font-family: 'Open Sans', sans-serif;
 display: flex;
-justify-content: left;
-background-color: aqua;}
+justify-content: left;}
 .navoption {font-size: 24px;
-padding-left: 2rem;
-padding-right: 2rem;}
+padding-left: 1rem;
+padding-right: 1rem;}
+   
