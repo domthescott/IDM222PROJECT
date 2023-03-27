@@ -7,6 +7,8 @@ body {
 
 }
 
+/* I removed the margins and padding from the body so there would not be white space on the edges of the background color. */
+
 
 
 h5{font-size: 3rem;}
@@ -19,6 +21,9 @@ h5{font-size: 3rem;}
 flex-direction: column;
 align-items: center;
 margin-bottom: 5rem;}
+
+/* I used rem values for the margins instad of pixels to try to ensure responsiveness. It was also important that
+I align the items to the center here, so that the vertical column of content was not pushed to the left automatically. */
 
 
 p {max-width: 800px;}
@@ -38,6 +43,10 @@ p {max-width: 800px;}
     opacity: 0.5;
   }
 
+/* Because I used classes in my HTML, I can target each of the projects all at once. The hover effect decreases the opacity when the user
+hovers over the content. This communicates to the user that the content can be clicked. */
+
+
 
 .projectimage {
 align-self: flex-start;
@@ -51,7 +60,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 a {color: black;}
 
-
+/* This is so that the text in the project section did not change to be blue and underlined like a link. */
 
 @media only screen and (max-width: 480px) {
   
@@ -75,6 +84,8 @@ align-self: center;}
 
   }
 
+/* This section takes care of mobile formatting, changing the text to display below each of the images instead of next to the images. */
+
   @media only screen and (max-width: 768px) {
   
  #navigation {
@@ -94,6 +105,8 @@ align-self: center;}
     h1 {  font-size: 28px;
     }
   }
+
+/* The tablet formatting also adjusts the sizing and margins */
 
 
 p6 {max-width: 1000px;
@@ -119,3 +132,5 @@ justify-content: center;}
 
 .backlink {font-size: 1rem;
 padding-top: 3rem;}
+
+/* This section handles the project pages. I used another vertical flexbox here. I kept using rem units for the margins to help with responsiveness. */
