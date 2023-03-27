@@ -1,14 +1,22 @@
+body {font-family: 'Open Sans', sans-serif;}
+
 #topsection {background-color: #A7C5A8;
-min-height: 25rem;
+
 }
 
-img {height: 500px;}
-
 #navigation {
-font-family: 'Open Sans', sans-serif;
 display: flex;
 justify-content: left;}
 .navoption {font-size: 24px;
-padding-left: 1rem;
-padding-right: 1rem;}
-   
+margin-left: 1rem;
+margin-right: 1rem;}
+
+#info {display: flex;
+flex-direction: column;
+align-items: center;}
+
+img {
+    margin-top: 5rem;
+    height: 400px;}
+
+p {max-width: 800px;}
