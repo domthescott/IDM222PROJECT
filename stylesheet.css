@@ -9,23 +9,17 @@ body {
 
 
 
-#navigation {
-display: flex;
-justify-content: left;
-margin-bottom: 4rem;}
+h5{font-size: 3rem;}
 
-#portrait {margin-bottom: 2rem;}
-.navoption {font-size: 24px;
-margin-left: 1rem;
-margin-right: 1rem;}
+#portrait {margin-bottom: 2rem;
+  height: 400px;}
+
 
 #info {display: flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 5rem;}
 
-#portrait {
-    height: 400px;}
 
 p {max-width: 800px;}
 
