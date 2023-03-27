@@ -13,10 +13,25 @@ margin-right: 1rem;}
 
 #info {display: flex;
 flex-direction: column;
-align-items: center;}
+align-items: center;
+margin-bottom: 5rem;}
 
-img {
-    margin-top: 5rem;
+#portrait {
     height: 400px;}
 
 p {max-width: 800px;}
+
+.project{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 3px 4px rgba(0,0,1,0.5); 
+margin-bottom: 5rem;
+margin-left: 4rem;
+margin-right: 4rem;}
+
+
+.projectimage {
+align-self: flex-start;
+width: 300px;}
+
+h1 {margin: 0 auto}
